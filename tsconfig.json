@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Supports modern JavaScript features
+    "module": "ESNext", // Uses the ESNext module system
+    "jsx": "react-native", // Enables JSX syntax for React Native
+    "strict": true, // Enables strict type-checking options
+    "esModuleInterop": true, // Fixes compatibility issues with ES modules
+    "skipLibCheck": true, // Skips type-checking of declaration files for faster builds
+    "moduleResolution": "node", // Resolves modules using Node's resolution algorithm
+    "resolveJsonModule": true, // Allows importing JSON files
+    "allowSyntheticDefaultImports": true // Enables default imports for React and other libraries
+  }
+}
